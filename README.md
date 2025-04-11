@@ -19,10 +19,10 @@
 Для файлов Ansible я использовал организацию на основе ролей. В решении существуют две роли: webserver (куда устанавливается Nginx) и database (туда устанавливается PostgreSQL в задании 3)
 
 Скриншот виртуальных машин в облаке:
-![Скриншот-1](https://github.com/aniljich/7.3-Yandex-Cloud/main/img/imgage1.png)
+![Скриншот-1](https://github.com/aniljich/7.3-Yandex-Cloud/blob/main/img/imgage1.png)
 
 Скриншот отработавшего ansible playbook:
-![Скриншот-2](https://github.com/aniljich/7.3-Yandex-Cloud/main/img/image2.png)
+![Скриншот-2](https://github.com/aniljich/7.3-Yandex-Cloud/blob/main/img/image2.png)
 
 Блок кода с установкой Nginx:
 ```yaml
@@ -103,7 +103,7 @@
     enabled: true
 ```
 Скриншот отработавщего Ansible:
-![Скриншот-3](https://github.com/aniljich/7.3-Yandex-Cloud/main/img/image3.png)
+![Скриншот-3](https://github.com/aniljich/7.3-Yandex-Cloud/blob/main/img/image3.png)
 
 --- 
 ### Задание 4*
@@ -118,9 +118,9 @@
 ### Ответ 4*
 
 Скриншот отработавшего terraform apply после повторного запуска:
-![Скриншот-4](https://github.com/aniljich/7.3-Yandex-Cloud/main/img/image4.png)
+![Скриншот-4](https://github.com/aniljich/7.3-Yandex-Cloud/blob/main/img/image4.png)
 
 Результат выполнения команды echo $YC_TOKEN:
-![Скриншот-5](https://github.com/aniljich/7.3-Yandex-Cloud/main/img/image5.png)
+![Скриншот-5](https://github.com/aniljich/7.3-Yandex-Cloud/blob/main/img/image5.png)
 
 ---
