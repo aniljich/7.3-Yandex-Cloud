@@ -117,10 +117,10 @@
 
 ### Ответ 4*
 
-Скриншот отработавшего terraform apply после повторного запуска:
+Скриншот отработавшего terraform apply после повторного запуска:<br>
 ![Скриншот-4](https://github.com/aniljich/7.3-Yandex-Cloud/blob/main/img/image4.png)
 
-Результат выполнения команды echo $YC_TOKEN:
+Результат выполнения команды echo $YC_TOKEN:<br>
 ![Скриншот-5](https://github.com/aniljich/7.3-Yandex-Cloud/blob/main/img/image5.png)
 
 ---
