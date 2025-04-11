@@ -19,7 +19,7 @@
 Для файлов Ansible я использовал организацию на основе ролей. В решении существуют две роли: webserver (куда устанавливается Nginx) и database (туда устанавливается PostgreSQL в задании 3)
 
 Скриншот виртуальных машин в облаке:
-![Скриншот-1](https://github.com/aniljich/7.3-Yandex-Cloud/blob/main/img/imgage1.png)
+![Скриншот-1](https://github.com/aniljich/7.3-Yandex-Cloud/blob/main/img/image1.png)
 
 Скриншот отработавшего ansible playbook:
 ![Скриншот-2](https://github.com/aniljich/7.3-Yandex-Cloud/blob/main/img/image2.png)
