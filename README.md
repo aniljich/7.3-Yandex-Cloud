@@ -18,10 +18,10 @@
 
 Для файлов Ansible я использовал организацию на основе ролей. В решении существуют две роли: webserver (куда устанавливается Nginx) и database (туда устанавливается PostgreSQL в задании 3)
 
-Скриншот виртуальных машин в облаке:
+Скриншот виртуальных машин в облаке:<br>
 ![Скриншот-1](https://github.com/aniljich/7.3-Yandex-Cloud/blob/main/img/image1.png)
 
-Скриншот отработавшего ansible playbook:
+Скриншот отработавшего ansible playbook:<br>
 ![Скриншот-2](https://github.com/aniljich/7.3-Yandex-Cloud/blob/main/img/image2.png)
 
 Блок кода с установкой Nginx:
@@ -102,7 +102,7 @@
     name: postgresql
     enabled: true
 ```
-Скриншот отработавщего Ansible:
+Скриншот отработавщего Ansible:<br>
 ![Скриншот-3](https://github.com/aniljich/7.3-Yandex-Cloud/blob/main/img/image3.png)
 
 --- 
