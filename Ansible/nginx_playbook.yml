@@ -1,0 +1,7 @@
+---
+- name: Deploy Nginx with hardware report template of index.html file
+  hosts: webservers
+  become: true
+  roles:
+    - webserver
+...

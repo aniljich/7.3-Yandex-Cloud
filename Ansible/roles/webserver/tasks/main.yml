@@ -1,0 +1,36 @@
+---
+- name: Update apt cache
+  ansible.builtin.apt:
+    update_cache: true
+
+- name: Install Nginx
+  ansible.builtin.apt:
+    name: nginx
+    state: present
+
+- name: Deploy Nginx template
+  ansible.builtin.template:
+    src: index.html.j2
+    dest: /var/www/html/index.html
+    owner: root
+    group: root
+    mode: o=rw,g=r,o=r
+  notify: Restart Nginx
+
+- name: Nginx autostart
+  ansible.builtin.service:
+    name: nginx
+    state: started
+    enabled: true
+
+- name: Check availability
+  ansible.builtin.uri:
+    url: "http://{{ ansible_default_ipv4.address }}"
+    follow_redirects: none
+    method: GET
+  register: http_result
+
+- name: Print http_result status code
+  ansible.builtin.debug:
+    msg: "Return code is {{ http_result.status }}"
+...

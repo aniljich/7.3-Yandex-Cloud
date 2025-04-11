@@ -1,0 +1,14 @@
+<html>
+  <head>
+    <title>Server hardware report</title>
+  </head>
+  <body>
+    <h1>Hardware report</h1>
+    <ul>
+      <li><strong>CPU Model:</strong> {{ ansible_processor[2] }}</li>
+      <li><strong>CPU Cores:</strong> {{ ansible_processor_vcpus }}</li>
+      <li><strong>RAM:</strong> {{ ansible_memtotal_mb }} MB</li>
+      <li><strong>IP:</strong> {{ ansible_default_ipv4.address }}</li>
+    </ul>
+  </body>
+</html>

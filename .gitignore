@@ -1,0 +1,22 @@
+# Terraform
+**/*.tfstate
+**/*.tfstate.*
+**/crash.log
+**/*.tfvars
+**/.terraform/
+**/.terraform.lock.hcl
+
+# Ansible
+**/*.retry
+**/*.vault
+**/*.log
+**/ansible.cfg
+**/*.config
+**/*hosts*
+
+**creds**
+**credentials**
+**secret**
+**pass**
+cloud-init.yml
+ssh_config

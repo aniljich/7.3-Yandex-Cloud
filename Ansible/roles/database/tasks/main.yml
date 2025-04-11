@@ -1,0 +1,19 @@
+---
+- name: Update apt cache
+  ansible.builtin.apt:
+    update_cache: true
+
+- name: Install PostgreSQL
+  ansible.builtin.apt:
+    name: postgresql
+    state: present
+
+- name: Ensure PostgreSQL service is running
+  ansible.builtin.service:
+    name: postgresql
+    state: started
+
+- name: Enable PostgreSQL service at boot
+  ansible.builtin.service:
+    name: postgresql
+    enabled: true
